@@ -26,5 +26,8 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
+    host: '127.0.0.1', // Use localhost
+    port: 3000, // Specify a port
+    open: false, // Prevent auto-opening the browser
   },
 };
